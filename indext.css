@@ -1,0 +1,102 @@
+body {
+    background-color: #F3F3F3;
+    color: #040404;
+    font-family: 'Calibry' , sans-serif;
+    margin: 0px;
+    font-size:18px; 
+}
+
+header {
+    text-align: center;
+    background-color: #454242;
+    color: #F3F3F3;
+    margin: 0px;
+    padding: 50px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header h3 {
+    margin-top: 0px;
+    font-weight: normal; /*to remove the bold from it, because yours seems to be with no bold font*/
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    text-align: center;
+    background-color: #2f2d2d;
+    padding: 20px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #F3F3F3;
+    margin: 70px;    
+    padding: 20px;
+}
+
+.letter-box {
+    position: fixed;
+    right: 0;
+    background-color: #2f2d2d;
+    color: #F3F3F3;
+    opacity: 0.9;
+    width: 400px;
+    height: 350px;
+    padding: 10px;
+    border-radius: 3%;
+    margin: 20px;
+    margin-top: 5px;
+}
+
+.letter-box h2 {
+    text-align: center;
+}
+
+.text-box {
+    display: inline-block;
+    background-color: #d0d0d0;
+    width: 600px;
+    height: 400px;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 3%;
+}
+
+.text-box p {
+    text-align: left;
+}
+
+.text-box-group {
+    text-align: center;
+}
+
+footer {
+    background-color: #2f2d2d;
+    height: 300px;
+}
+
+footer img {
+    width: 200px;
+    height: 200px;
+    float: right;
+    padding: 50px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #F3F3F3;
+    float: left;
+    margin: 20px;
+}
+
+footer div {
+    padding:20px 10px 10px 50px;
+    display: inline-block;
+    width: 200px;
+}
